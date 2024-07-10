@@ -9,7 +9,8 @@ function changeText() {
         button.style.display = "block";
     };
 }
-// Meeting11 Like Dislike
+// Meeting11 
+// Like and Dislike
 var btnLike = document.querySelector("#green");
 var btnDislike = document.querySelector("#red");
 if (btnLike) {
@@ -29,4 +30,24 @@ function dislikeColor() {
         btnLike.classList.remove("green");
     }
     this.classList.toggle("red");
+}
+
+// Meeting 12 
+// Changing Jumbotron Image
+function changeImage(element) {
+    element.setAttribute("src", "assets/img-header2.png");
+    // element.setAttribute("height", "300")
+    // element.setAttribute("class", "jumbotron-img")
+}
+    function changeImageBack(element) {
+    element.setAttribute("src", "assets/img-header.png");
+    // element.setAttribute("height", "300")
+}
+
+// Changing Title
+function changeTitle(element) {
+    element.innerHTML = "Create Simple Game and Website";
+}
+function changeTitleBack(element) {
+    element.innerHTML = "Get Programming Tips Here!";
 }

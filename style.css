@@ -205,3 +205,111 @@ input{
     cursor: pointer;
     font-size: 20px; 
 }
+
+/* TOGGLE */
+.toggle {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.btn {
+    background-color: transparent;
+}
+.button:hover {
+    cursor: pointer;
+}
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Google Maps */
+.content {
+    margin-left: 10%;
+    max-width: 65%;
+}
+article {
+    max-width: 100%;
+}
+.article-title {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0 30px;
+}
+.maps {
+    padding: 10px;
+}
+iframe {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 40px gainsboro;
+    display: block;
+}
+
+/* footer */
+footer {
+    background-color: rgb(38, 70, 83);
+}
+.center-footer {
+    margin: 0 20px;
+}
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.info-top {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    color: rgb(224, 251, 252);
+}
+.info-center {
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    border-top: 1px solid white;
+    color: rgb(224, 251, 252);
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram-square,
+.fa-twitter-square,
+.fa-facebook-square,
+.fa-envelope, .fa-square-youtube{
+    padding: 5px;
+    font-size: 30px;
+    color: white;
+}
+
+/* Everything that defines your project */
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 20px 30px;
+    border-bottom: 10px solid rgb(38, 70, 83);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px gainsboro;
+}
+
+.project-title {
+    color: black;
+    font-weight: bold;
+}

@@ -28,13 +28,13 @@
     <main>
         <section id="jumbotron">
             <div class="jumbotron">
-                <h1 class="jumbrotron-title">Get Programming Tips here!</h1>
+                <h1 class="jumbotron-title" onmouseout="changeTitleBack(this)" onmouseover="changeTitle(this)">Get Programming Tips here!</h1>
                 <div class="header-flex">
                     <div>
                         <h2 class="jumbotron-text">Are you a newcomer in Programming? <br>Learn through <span style="color: #f4a261;">Simple</span>Game and Website!</h2>
                         <div class="mini-text-flex">
                             <p class="mini-text">Learn basic Programming here</p>
-                            <button id="icon-up">
+                            <button id="icon-up" onclick="changeText()">
                                 <i class="far fa-hand-point-up"></i>
                             </button>
                             <button id="icon-down" class="icon-down">
@@ -45,7 +45,7 @@
                     </div>
 
                     <div>
-                        <img src="./assets/img-header.png" width="700" height="auto" class="jumbotron-img">
+                        <img src="./assets/img-header.png" onmouseout="changeImageBack(this)" onmouseover="changeImage(this)" width="700" height="auto" class="jumbotron-img">
                     </div>
                 </div>
             </div>
@@ -62,11 +62,10 @@
 
                     <div class="toggle">
                         <button class="btn" id="green">
-                            <i class="fa fa-thumbs-up fa-lg"></i>
+                        <i class="fa fa-thumbs-up fa-lg"></i>
                         </button>
-
-                        <button class="btn" id="green">
-                            <i class="fa fa-thumbs-down fa-lg"></i>
+                        <button class="btn" id="red">
+                        <i class="fa fa-thumbs-down fa-lg"></i>
                         </button>
                     </div>
                 </div>
@@ -89,11 +88,117 @@
                     </ul>
                 </div>
             </aside>
+            
+            <!-- adding Google Maps -->
+            <div class="content">
+                <article id="my-project">
+                    <h3 class="article-title">
+                        This is my project pls subscribe!
+                    </h3>
+                    <div class="project-container">
+                        <div class="project">
+                            <img width="300px" height="210px" src="./assets/desert-rally.png" alt="WOOH">
+                            <h4 class="project-title">
+                                Desert Rally
+                            </h4>
+                            <p class="project-description">
+                                Game Desert Rally Uses Scratch Platform
+                            </p>
+                        </div>
+                        <div class="project">
+                            <img width="300px" height="210px" src="./assets/desert-rally.png" alt="WOOH">
+                            <h4 class="project-title">
+                                Desert Rally
+                            </h4>
+                            <p class="project-description">
+                                Game Desert Rally Uses Scratch Platform
+                            </p>
+                        </div>
+                        <div class="project">
+                            <img width="300px" height="210px" src="./assets/desert-rally.png" alt="WOOH">
+                            <h4 class="project-title">
+                                Desert Rally
+                            </h4>
+                            <p class="project-description">
+                                Game Desert Rally Uses Scratch Platform
+                            </p>
+                        </div>
+                        <div class="project">
+                            <img width="300px" height="210px" src="./assets/desert-rally.png" alt="WOOH">
+                            <h4 class="project-title">
+                                Desert Rally
+                            </h4>
+                            <p class="project-description">
+                                Game Desert Rally Uses Scratch Platform
+                            </p>
+                        </div>
+                        <div class="project">
+                            <img width="300px" height="210px" src="./assets/desert-rally.png" alt="WOOH">
+                            <h4 class="project-title">
+                                Desert Rally
+                            </h4>
+                            <p class="project-description">
+                                Game Desert Rally Uses Scratch Platform
+                            </p>
+                        </div>
+                        <div class="project">
+                            <img width="300px" height="210px" src="./assets/desert-rally.png" alt="WOOH">
+                            <h4 class="project-title">
+                                Desert Rally
+                            </h4>
+                            <p class="project-description">
+                                Game Desert Rally Uses Scratch Platform
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article id="video">
+                    <div class="item-video">
+                        <h3 class="article-title">
+                            Roblox Combat Initiation is UNDERRATED! (MEMES)
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6tlNTWHH8rY?si=iKWlcngBgAeOvZwq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h3 class="article-title">
+                            Roblox Natural Disaster Survival Will Never Die! (MEMES)
+                        </h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZK8KafkvKbY?si=Bw_kFgebwcpskk3X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </article>
+                <article id="maps">
+                    <div class="maps">
+                        <h3 class="article-title">
+                            Google Map Location 
+                        </h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33590.57916517463!2d108.33093382003418!3d-6.6269171618266025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6edbd8e038cf49%3A0x6de43b17b12c4d90!2sSMPN%201%20Ligung!5e0!3m2!1sen!2sid!4v1720604086575!5m2!1sen!2sid" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+            </div>
+            
         </div>
 
     </main>
-    <script src="script.js"></script>
 
-    <button id="icon-up" onclick="changeText()"><i class="far fa-hand-point-up"></i></button>
+    <!-- footer -->
+    <footer>
+        <div class="main-footer">
+            <h3 class="info-top">
+                Hi, I'm the Brandon!
+            </h3>
+
+            <div class="social-media">
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fas fa-envelope"></i>
+                <i class="fa-brands fa-square-youtube"></i>
+            </div>
+
+            <p class="info-center">
+                Copyright &copy; 2024 . Brandon . All Rights Reserved
+            </p>   
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
